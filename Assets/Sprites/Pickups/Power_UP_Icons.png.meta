@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 5a385dffef7fe4740a3e5c1d73e44db7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5637432474521157952
+    second: Power_UP_Icons_0
+  - first:
+      213: 5280989126341292949
+    second: Power_UP_Icons_1
+  - first:
+      213: -6417958072348900597
+    second: Power_UP_Icons_2
+  - first:
+      213: -7409573022500449494
+    second: Power_UP_Icons_3
+  - first:
+      213: -1783159315275361354
+    second: Power_UP_Icons_4
+  - first:
+      213: 9062881120865531454
+    second: Power_UP_Icons_5
+  - first:
+      213: -6400254210658381966
+    second: Power_UP_Icons_6
+  - first:
+      213: -1524035708266988169
+    second: Power_UP_Icons_7
+  - first:
+      213: -991510726003898897
+    second: Power_UP_Icons_8
+  - first:
+      213: 3689123800607561087
+    second: Power_UP_Icons_9
+  - first:
+      213: 7922298621608060105
+    second: Power_UP_Icons_10
+  - first:
+      213: 2052604165878112538
+    second: Power_UP_Icons_11
+  - first:
+      213: 4163413503556098873
+    second: Power_UP_Icons_12
+  - first:
+      213: -7151304953527241401
+    second: Power_UP_Icons_13
+  - first:
+      213: 7218750806380511654
+    second: Power_UP_Icons_14
+  - first:
+      213: -5979992778582381390
+    second: Power_UP_Icons_15
+  - first:
+      213: 4865060182215815681
+    second: Power_UP_Icons_16
+  - first:
+      213: -7312944709112361989
+    second: Power_UP_Icons_17
+  - first:
+      213: 4793666685422717312
+    second: Power_UP_Icons_18
+  - first:
+      213: -466839441034646434
+    second: Power_UP_Icons_19
+  - first:
+      213: 1360045273169447350
+    second: Power_UP_Icons_20
+  - first:
+      213: -5274186135100470091
+    second: Power_UP_Icons_21
+  - first:
+      213: 4077560484126648347
+    second: Power_UP_Icons_22
+  - first:
+      213: 557117476177165236
+    second: Power_UP_Icons_23
+  - first:
+      213: -4738115303090143364
+    second: Power_UP_Icons_24
+  - first:
+      213: 8826289502874675848
+    second: Power_UP_Icons_25
+  - first:
+      213: 5297259420816163312
+    second: Power_UP_Icons_26
+  - first:
+      213: -1032438335185853025
+    second: Power_UP_Icons_27
+  - first:
+      213: -8408009820271615961
+    second: Power_UP_Icons_28
+  - first:
+      213: 6270227186150894031
+    second: Power_UP_Icons_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealthKit_Sprite
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 547
+        width: 395
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce3ae66801d3c1b0800000000000000
+      internalID: -5637432474521157952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Sprite
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 560
+        width: 324
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549ae6b2920fc5c4882efae3787b36c5
+      internalID: 1989072135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomb_Unlit_Sprite
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 551
+        width: 304
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e09551d7c297af458debf75f915507e
+      internalID: -710853099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomb_Lit_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 557
+        width: 365
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7023e87dc21dfcb47856e15641cabc9a
+      internalID: -1207282168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold_Coin_Sprite
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 118
+        width: 350
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741c56c3f2b306c44a26a6f8da02224c
+      internalID: -335664467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver_Coin_Sprite
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 99
+        width: 355
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eed7acaac09bd429355babf9807e50
+      internalID: -1832748322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_Bolt_Sprite
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 70
+        width: 302
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cb2f450d098114ab2e69155571eec1
+      internalID: -1061866018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scrap_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 82
+        width: 406
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab7d03515d5e4147b5f037ce9655246
+      internalID: -1261060964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 79d066acdcb428e46a706f0b92ce4448
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":384.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Bomb_Lit_Sprite: -1207282168
+      Bomb_Unlit_Sprite: -710853099
+      Gold_Coin_Sprite: -335664467
+      HealthKit_Sprite: -5637432474521157952
+      Lightning_Bolt_Sprite: -1061866018
+      Scrap_Sprite: -1261060964
+      Shield_Sprite: 1989072135
+      Silver_Coin_Sprite: -1832748322
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 3d215c83174c66c40842114969443138
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8586779772088894748
+    second: Girl_Walking_Right_0
+  - first:
+      213: -8799069355231384516
+    second: Girl_Walking_Right_1
+  - first:
+      213: 2966514492531212449
+    second: Girl_Walking_Right_2
+  - first:
+      213: 2904667482694753791
+    second: Girl_Walking_Right_3
+  - first:
+      213: 4825637132539501323
+    second: Girl_Walking_Right_4
+  - first:
+      213: 3658965266026838739
+    second: Girl_Walking_Right_5
+  - first:
+      213: -4954902740122042391
+    second: Girl_Walking_Right_6
+  - first:
+      213: 8314907058988472167
+    second: Girl_Walking_Right_7
+  - first:
+      213: -3418664424201857871
+    second: Girl_Walking_Right_8
+  - first:
+      213: -6009660614352870762
+    second: Girl_Walking_Right_9
+  - first:
+      213: -5305357911080503616
+    second: Girl_Walking_Right_10
+  - first:
+      213: 5655516139759601102
+    second: Girl_Walking_Right_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Girl_Walking_Right_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 495
+        width: 439
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eab120ca41a5d880800000000000000
+      internalID: -8586779772088894748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_1
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 497
+        width: 218
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c68677a0d63e580800000000000000
+      internalID: -8799069355231384516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_2
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 467
+        width: 237
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a00f54b63d2b2920800000000000000
+      internalID: 2966514492531212449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_3
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 487
+        width: 842
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd16a89fa37f4820800000000000000
+      internalID: 2904667482694753791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 126
+        width: 234
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b93fb976b18f240800000000000000
+      internalID: 4825637132539501323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 480
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dab50ff58147c230800000000000000
+      internalID: 3658965266026838739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_6
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 23
+        width: 1075
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef7a66c536ac3bb0800000000000000
+      internalID: -4954902740122042391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76755677aeb746370800000000000000
+      internalID: 8314907058988472167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 33
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4de2da1d67e80d0800000000000000
+      internalID: -3418664424201857871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_9
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 53
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69267d40385699ca0800000000000000
+      internalID: -6009660614352870762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 16
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6fcbfb6159f56b0800000000000000
+      internalID: -5305357911080503616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Right_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 19
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec50cd307fd6c7e40800000000000000
+      internalID: 5655516139759601102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Girl_Walking_Right_0: -8586779772088894748
+      Girl_Walking_Right_1: -8799069355231384516
+      Girl_Walking_Right_10: -5305357911080503616
+      Girl_Walking_Right_11: 5655516139759601102
+      Girl_Walking_Right_2: 2966514492531212449
+      Girl_Walking_Right_3: 2904667482694753791
+      Girl_Walking_Right_4: 4825637132539501323
+      Girl_Walking_Right_5: 3658965266026838739
+      Girl_Walking_Right_6: -4954902740122042391
+      Girl_Walking_Right_7: 8314907058988472167
+      Girl_Walking_Right_8: -3418664424201857871
+      Girl_Walking_Right_9: -6009660614352870762
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
