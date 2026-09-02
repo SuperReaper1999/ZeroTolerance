@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 373c099e77268bf4ebc0c6a84f71601f
+guid: 703f4cd73a658ea4299d583a0c9984a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4383804695357597181
-    second: Girl_Idle_Facing_Right_0
-  - first:
-      213: 5604648016711616521
-    second: Girl_Idle_Facing_Right_1
-  - first:
-      213: -1630338511420291033
-    second: Girl_Idle_Facing_Right_2
-  - first:
-      213: 447683061219531367
-    second: Girl_Idle_Facing_Right_3
+      213: 4509866950761763720
+    second: HudPreview3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -33,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -86,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,89 +115,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Girl_Idle_Facing_Right_TEST
+      name: HudPreview3_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 311
-        width: 210
-        height: 606
+        y: 0
+        width: 960
+        height: 540
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30a55802bd89923c0800000000000000
-      internalID: -4383804695357597181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Girl_Idle_Facing_Right_1
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 300
-        width: 976
-        height: 690
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 908813f2da5b7cd40800000000000000
-      internalID: 5604648016711616521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Girl_Idle_Facing_Right_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 59
-        width: 1330
-        height: 231
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 728872303cfdf59e0800000000000000
-      internalID: -1630338511420291033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Girl_Idle_Facing_Right_3
-      rect:
-        serializedVersion: 2
-        x: 1326
-        y: 65
-        width: 199
-        height: 225
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76a13fb4f5d763600800000000000000
-      internalID: 447683061219531367
+      spriteID: 883dd60f814469e30800000000000000
+      internalID: 4509866950761763720
       vertices: []
       indices: 
       edges: []
@@ -215,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 92bb9c6e534bee6438851c46cb129f2c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -225,10 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Girl_Idle_Facing_Right_1: 5604648016711616521
-      Girl_Idle_Facing_Right_2: -1630338511420291033
-      Girl_Idle_Facing_Right_3: 447683061219531367
-      Girl_Idle_Facing_Right_TEST: -4383804695357597181
+      HudPreview3_0: 4509866950761763720
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

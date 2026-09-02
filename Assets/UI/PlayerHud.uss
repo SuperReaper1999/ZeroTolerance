@@ -1,0 +1,47 @@
+.hud-root {
+    position: absolute;
+    left: 24px;
+    top: 22px;
+    align-items: flex-start;
+}
+
+.coin-counter {
+    width: 260px;
+    height: 60px;
+    padding-left: 6px;
+    padding-right: 20px;
+    flex-direction: row;
+    align-items: center;
+    background-image: url("project://database/Assets/Sprites/UI/Health_Hud.png?fileID=763991195102037128&guid=94f6ce30ea74cba4ba90428ca37c1dbb&type=3#Health_Hud_8");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.coin-icon {
+    width: 70px;
+    height: 70px;
+    margin-left: -18px;
+    margin-right: 8px;
+    background-image: url("project://database/Assets/Sprites/Pickups/Power_UP_Icons.png?fileID=-335664467&guid=5a385dffef7fe4740a3e5c1d73e44db7&type=3#Gold_Coin_Sprite");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.coin-count {
+    color: rgb(255, 255, 255);
+    font-size: 31px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+}
+
+.heart-row {
+    margin-top: 9px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heart-icon {
+    width: 58px;
+    height: 58px;
+    margin-right: 7px;
+    background-image: url("project://database/Assets/Sprites/UI/Health_Hud.png?fileID=-6313528471704947012&guid=94f6ce30ea74cba4ba90428ca37c1dbb&type=3#Health_Hud_3");
+    -unity-background-scale-mode: scale-to-fit;
+}

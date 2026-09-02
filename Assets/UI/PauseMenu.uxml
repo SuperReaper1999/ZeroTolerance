@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Style src="PauseMenu.uss" />
+    <ui:VisualElement name="PauseOverlay" class="pause-overlay">
+        <ui:VisualElement name="PausePanel" class="pause-panel">
+            <ui:Label text="PAUSED" class="pause-title" />
+            <ui:VisualElement class="title-divider">
+                <ui:VisualElement class="divider-line" />
+                <ui:Label text="◆" class="divider-mark" />
+                <ui:VisualElement class="divider-line" />
+            </ui:VisualElement>
+            <ui:VisualElement class="menu-options">
+                <ui:Button text="RESUME" class="menu-button menu-button-primary" />
+                <ui:Button text="SETTINGS" class="menu-button" />
+                <ui:Button text="CONTROLS" class="menu-button" />
+                <ui:Button text="RESTART LEVEL" class="menu-button" />
+                <ui:Button text="MAIN MENU" class="menu-button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="back-row">
+                <ui:Label text="ESC" class="keycap" />
+                <ui:Label text="BACK" class="back-label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

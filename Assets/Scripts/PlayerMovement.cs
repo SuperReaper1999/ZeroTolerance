@@ -47,8 +47,8 @@ public class PlayerMovement : MonoBehaviour
         Vector2 move = playerInput.actions["Move"].ReadValue<Vector2>();
         RB.linearVelocity = new Vector2(move.x * 5f, RB.linearVelocity.y);
         Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y, Camera.main.transform.position.z);
-        if (playerInput.actions["Jump"].WasPressedThisFrame() && GroundCheck()) 
-        { 
+        if (playerInput.actions["Jump"].WasPressedThisFrame() && GroundCheck())
+        {
             Debug.Log("Jump action triggered");
             RB.linearVelocityY = 10f; // Set the vertical velocity to make the player jump
         }
