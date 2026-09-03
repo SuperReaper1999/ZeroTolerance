@@ -5,3 +5,5 @@
 .heart-row { width: 240px; margin-top: 9px; flex-direction: row; align-items: center; justify-content: center; }
 .heart-icon { width: 58px; height: 58px; margin-right: 7px; background-image: url("project://database/Assets/Sprites/UI/Health_Hud.png?fileID=-6313528471704947012&guid=94f6ce30ea74cba4ba90428ca37c1dbb&type=3#Health_Hud_3"); -unity-background-scale-mode: scale-to-fit; }
 .heart-icon-last { margin-right: 0; }
+.inventory-open-button { width: 120px; height: 42px; margin-top: 12px; color: rgb(255,248,234); font-size: 18px; -unity-font-style: bold; background-image: url("project://database/Assets/Sprites/UI/UI buttons.png?fileID=-6188929701681851848&guid=c2b6350590f86ca478d89e4a4b188bd9&type=3#Big_Long_Button"); -unity-background-scale-mode: scale-to-fit; background-color: rgba(0,0,0,0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; }
+.inventory-open-button:hover { color: rgb(255,216,166); -unity-background-image-tint-color: rgb(224,178,122); }

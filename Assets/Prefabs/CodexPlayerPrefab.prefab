@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 268626456300276219}
   - component: {fileID: 8650780381357824967}
   - component: {fileID: 2123958373780394406}
+  - component: {fileID: 8678589461685575334}
   m_Layer: 0
   m_Name: CodexPlayerPrefab
   m_TagString: Untagged
@@ -204,16 +205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 867fb354c511d6943a9942354baa83bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  playerSprite: {fileID: 3549000760269672463}
   playerInput: {fileID: 5026175610761038761}
   RB: {fileID: 372077755643222119}
-  playerCollider: {fileID: 0}
-  groundLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  groundCheckDistance: 0.08
-  moveSpeed: 5
-  jumpSpeed: 10
 --- !u!210 &8650780381357824967
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -258,3 +251,21 @@ MonoBehaviour:
   jumpUpperHeight: 454
   jumpLowerY: 111
   jumpLowerHeight: 358
+--- !u!114 &8678589461685575334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9119972970926797318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed74be09c9ede145acf81d9bd90cd3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
+  capacity: 20
+  startingItems:
+  - itemId: gold_coin
+    count: 12
+  - itemId: health_kit
+    count: 2

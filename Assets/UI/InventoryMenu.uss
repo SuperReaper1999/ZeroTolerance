@@ -1,0 +1,21 @@
+.inventory-overlay { position: absolute; left: 0; right: 0; top: 0; bottom: 0; align-items: center; justify-content: center; background-color: rgba(0, 10, 17, 0.78); }
+.inventory-panel { width: 930px; padding: 28px 36px 24px 36px; background-color: rgb(4, 20, 31); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(142, 86, 31); border-right-color: rgb(142, 86, 31); border-top-color: rgb(142, 86, 31); border-bottom-color: rgb(142, 86, 31); }
+.inventory-title { align-self: center; color: rgb(255, 247, 232); font-size: 48px; -unity-font-style: bold; margin-bottom: 16px; }
+.inventory-body { flex-direction: row; justify-content: space-between; }
+.inventory-grid { width: 470px; height: 304px; flex-direction: row; flex-wrap: wrap; align-content: flex-start; }
+.inventory-slot { width: 70px; height: 70px; margin-right: 8px; margin-bottom: 8px; position: relative; background-image: url("project://database/Assets/Sprites/UI/UI buttons.png?fileID=5429045347840414981&guid=c2b6350590f86ca478d89e4a4b188bd9&type=3#Small_Fabric_Button"); -unity-background-scale-mode: scale-to-fit; background-color: rgba(0,0,0,0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; }
+.inventory-slot:hover { -unity-background-image-tint-color: rgb(224,178,122); }
+.inventory-slot-selected { -unity-background-image-tint-color: rgb(242,185,95); }
+.inventory-slot-drag-source { opacity: 0.42; }
+.inventory-icon { position: absolute; left: 12px; right: 12px; top: 12px; bottom: 12px; -unity-background-scale-mode: scale-to-fit; }
+.inventory-count { position: absolute; right: 6px; bottom: 3px; color: rgb(255, 248, 234); font-size: 17px; -unity-font-style: bold; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(31,18,9); }
+.inventory-details { width: 390px; min-height: 282px; padding: 18px; background-color: rgba(1, 9, 15, 0.58); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(142, 86, 31); border-right-color: rgb(142, 86, 31); border-top-color: rgb(142, 86, 31); border-bottom-color: rgb(142, 86, 31); }
+.detail-icon { width: 105px; height: 105px; align-self: center; -unity-background-scale-mode: scale-to-fit; }
+.detail-name { margin-top: 16px; color: rgb(245, 190, 112); font-size: 29px; -unity-font-style: bold; }
+.detail-description { margin-top: 10px; color: rgb(245, 234, 214); font-size: 18px; white-space: normal; }
+.inventory-footer { margin-top: 14px; flex-direction: row; justify-content: center; }
+.inventory-action { width: 185px; height: 58px; margin-left: 8px; margin-right: 8px; color: rgb(255,248,234); font-size: 21px; -unity-font-style: bold; background-image: url("project://database/Assets/Sprites/UI/UI buttons.png?fileID=-6188929701681851848&guid=c2b6350590f86ca478d89e4a4b188bd9&type=3#Big_Long_Button"); -unity-background-scale-mode: scale-to-fit; background-color: rgba(0,0,0,0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; }
+.inventory-action:hover { color: rgb(255,216,166); -unity-background-image-tint-color: rgb(224,178,122); }
+.inventory-hint { align-self: center; margin-top: 8px; color: rgb(186,151,111); font-size: 14px; }
+.inventory-drag-ghost { display: none; position: absolute; width: 70px; height: 70px; opacity: 0.88; background-image: url("project://database/Assets/Sprites/UI/UI buttons.png?fileID=5429045347840414981&guid=c2b6350590f86ca478d89e4a4b188bd9&type=3#Small_Fabric_Button"); -unity-background-scale-mode: scale-to-fit; }
+.inventory-drag-ghost-icon { position: absolute; left: 12px; right: 12px; top: 12px; bottom: 12px; -unity-background-scale-mode: scale-to-fit; }
