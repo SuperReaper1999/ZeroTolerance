@@ -148,15 +148,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Girl_Walking_Right_0
+      name: Girl_Walking_Top_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 495
-        width: 439
-        height: 311
+        x: 42
+        y: 506
+        width: 197
+        height: 302
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,15 +170,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_1
+      name: Girl_Walking_Top_1
       rect:
         serializedVersion: 2
-        x: 481
-        y: 497
-        width: 218
-        height: 304
+        x: 249
+        y: 500
+        width: 205
+        height: 306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,15 +192,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_2
+      name: Girl_Walking_Top_2
       rect:
         serializedVersion: 2
-        x: 697
-        y: 467
-        width: 237
-        height: 402
+        x: 490
+        y: 502
+        width: 207
+        height: 306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,15 +214,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_3
+      name: Girl_Walking_Top_3
       rect:
         serializedVersion: 2
-        x: 917
-        y: 487
-        width: 842
-        height: 319
+        x: 705
+        y: 506
+        width: 186
+        height: 291
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,15 +236,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_4
+      name: Girl_Walking_Top_4
       rect:
         serializedVersion: 2
-        x: 13
-        y: 126
-        width: 234
-        height: 313
+        x: 906
+        y: 495
+        width: 222
+        height: 294
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,15 +258,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_5
+      name: Girl_Walking_Top_5
       rect:
         serializedVersion: 2
-        x: 226
-        y: 0
-        width: 480
-        height: 439
+        x: 1141
+        y: 497
+        width: 206
+        height: 304
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,15 +280,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_6
+      name: Girl_Walking_Top_6
       rect:
         serializedVersion: 2
-        x: 685
-        y: 23
-        width: 1075
-        height: 416
+        x: 1364
+        y: 478
+        width: 193
+        height: 315
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,15 +302,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_7
+      name: Girl_Walking_Top_7
       rect:
         serializedVersion: 2
-        x: 137
-        y: 0
-        width: 55
-        height: 80
+        x: 1569
+        y: 487
+        width: 199
+        height: 321
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,89 +324,177 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_8
+      name: Girl_Walking_Bottom_0
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 33
-        width: 17
-        height: 22
+        x: 0
+        y: 128
+        width: 247
+        height: 306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b4de2da1d67e80d0800000000000000
-      internalID: -3418664424201857871
+      spriteID: 64a066d25c25569498a87855d384bee8
+      internalID: -1570931405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_9
+      name: Girl_Walking_Bottom_1
       rect:
         serializedVersion: 2
-        x: 1449
-        y: 53
-        width: 18
-        height: 14
+        x: 238
+        y: 128
+        width: 220
+        height: 306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 69267d40385699ca0800000000000000
-      internalID: -6009660614352870762
+      spriteID: 3a679036bb9e7f341b0fbe8685b20732
+      internalID: -681310207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_10
+      name: Girl_Walking_Bottom_2
       rect:
         serializedVersion: 2
-        x: 500
-        y: 16
-        width: 13
-        height: 10
+        x: 465
+        y: 126
+        width: 232
+        height: 312
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0c6fcbfb6159f56b0800000000000000
-      internalID: -5305357911080503616
+      spriteID: af26f84b77abc014b961b68d29b23150
+      internalID: -776269376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walking_Right_11
+      name: Girl_Walking_Bottom_3
       rect:
         serializedVersion: 2
-        x: 705
-        y: 19
-        width: 10
-        height: 14
+        x: 690
+        y: 126
+        width: 203
+        height: 310
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec50cd307fd6c7e40800000000000000
-      internalID: 5655516139759601102
+      spriteID: 273cb5dec6aa9cd4eb8ce3707284b427
+      internalID: -1036868425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Bottom_4
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 124
+        width: 218
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a3d271d799c9a40af4aed867da66c6
+      internalID: 665283633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Bottom_5
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 128
+        width: 234
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bec9071a8f5de4d81a2f45d996b26a
+      internalID: 572408261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Bottom_6
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 124
+        width: 218
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2d7841c4c135349a23b69ce542b9bf
+      internalID: -1687301561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walking_Bottom_7
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 117
+        width: 207
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ddf0841bf4f144ca86ae8738af666b
+      internalID: 8496387
       vertices: []
       indices: 
       edges: []
@@ -415,7 +503,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9e23ad4214d195a46838bdda994d3f38
     internalID: 0
     vertices: []
     indices: 
@@ -423,20 +511,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":2.0},"gridSpriteSize":{"x":221.0,"y":443.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Girl_Walking_Right_0: -8586779772088894748
-      Girl_Walking_Right_1: -8799069355231384516
-      Girl_Walking_Right_10: -5305357911080503616
-      Girl_Walking_Right_11: 5655516139759601102
-      Girl_Walking_Right_2: 2966514492531212449
-      Girl_Walking_Right_3: 2904667482694753791
-      Girl_Walking_Right_4: 4825637132539501323
-      Girl_Walking_Right_5: 3658965266026838739
-      Girl_Walking_Right_6: -4954902740122042391
-      Girl_Walking_Right_7: 8314907058988472167
-      Girl_Walking_Right_8: -3418664424201857871
-      Girl_Walking_Right_9: -6009660614352870762
+      Girl_Walking_Bottom_0: -1570931405
+      Girl_Walking_Bottom_1: -681310207
+      Girl_Walking_Bottom_2: -776269376
+      Girl_Walking_Bottom_3: -1036868425
+      Girl_Walking_Bottom_4: 665283633
+      Girl_Walking_Bottom_5: 572408261
+      Girl_Walking_Bottom_6: -1687301561
+      Girl_Walking_Bottom_7: 8496387
+      Girl_Walking_Top_0: -8586779772088894748
+      Girl_Walking_Top_1: -8799069355231384516
+      Girl_Walking_Top_2: 2966514492531212449
+      Girl_Walking_Top_3: 2904667482694753791
+      Girl_Walking_Top_4: 4825637132539501323
+      Girl_Walking_Top_5: 3658965266026838739
+      Girl_Walking_Top_6: -4954902740122042391
+      Girl_Walking_Top_7: 8314907058988472167
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

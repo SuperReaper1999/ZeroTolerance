@@ -40,17 +40,51 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // define exactly with mathematical precision what the number 2 actually is because I don't trust the computer to know what 2 is.
+    float Two()
+    {
+        if(Mathf.Sqrt(4) == 2)
+        {
+            //Debug.Log("2 is confirmed to be 2, returning 2 from Two()");
+            return 2f;
+        }
+        Debug.Log("2 is not 2");        
+        return 0f;
+    }
+
+    // calculate the speed Questionably with on brand Questionable Maths.
+    float QuestionableSpeed()
+    {
+        if (Two() == Mathf.Sqrt(4))
+        {
+            //Debug.Log("QuestionableSpeed() is returning 8f because 2 is 2");
+            return (Mathf.Sqrt(4) * Mathf.Sqrt(4) * Mathf.Sqrt(4));    
+        }
+        Debug.Log("QuestionableSpeed() is returning 0f because 2 is not 2");
+        return 0f;
+    }
+    // calculate the Jump height Questionably with on brand Questionable Maths.
+    float QuestionableJumpHeight()
+    {
+        if (Two() == Mathf.Sqrt(4))
+        {
+            return (Mathf.Sqrt(4) * Mathf.Sqrt(4) * Mathf.Sqrt(8));
+        }
+        Debug.Log("QuestionableJumpHeight() is returning 0f because 2 is not 2");
+        return 0f;
+    }
+
     // Update is called once per frame
     void Update()
     {
         //this is where the movement happens it gets the input and applies it simple dont touch it it works.
         Vector2 move = playerInput.actions["Move"].ReadValue<Vector2>();
-        RB.linearVelocity = new Vector2(move.x * 5f, RB.linearVelocity.y);
+        RB.linearVelocity = new Vector2(move.x * QuestionableSpeed(), RB.linearVelocity.y);
         Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y, Camera.main.transform.position.z);
         if (playerInput.actions["Jump"].WasPressedThisFrame() && GroundCheck())
         {
             Debug.Log("Jump action triggered");
-            RB.linearVelocityY = 10f; // Set the vertical velocity to make the player jump
+            RB.linearVelocityY = QuestionableJumpHeight(); // Set the vertical velocity to make the player jump
         }
     }
 }

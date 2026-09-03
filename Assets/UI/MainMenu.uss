@@ -1,0 +1,7 @@
+.main-menu-overlay { position:absolute; left:0; right:0; top:0; bottom:0; align-items:center; justify-content:center; background-color:rgb(4,12,20); }
+.main-menu-panel { width:420px; align-items:center; }
+.main-menu-title { color:rgb(248,245,238); font-size:42px; -unity-font-style:bold; letter-spacing:5px; -unity-text-align:middle-center; }
+.main-menu-subtitle { color:rgba(220,221,209,.72); font-size:15px; -unity-font-style:bold; letter-spacing:4px; margin-top:8px; margin-bottom:18px; -unity-text-align:middle-center; }
+.main-menu-options { width:260px; align-items:stretch; }
+Button.main-menu-button { height:72px; margin-bottom:2px; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0; color:rgb(244,241,234); font-size:18px; -unity-font-style:bold; letter-spacing:2px; -unity-text-align:middle-center; background-color:rgba(255,255,255,0); background-image:url("project://database/Assets/Sprites/UI/UI buttons.png?fileID=-6188929701681851848&guid=c2b6350590f86ca478d89e4a4b188bd9&type=3#Big_Long_Button"); -unity-background-scale-mode:scale-to-fit; -unity-background-image-tint-color:rgb(255,255,255); border-left-width:0; border-right-width:0; border-top-width:0; border-bottom-width:0; border-top-left-radius:0; border-top-right-radius:0; border-bottom-left-radius:0; border-bottom-right-radius:0; }
+Button.main-menu-button:hover { color:rgb(255,216,166); -unity-background-image-tint-color:rgb(224,178,122); background-color:rgba(255,255,255,0); }

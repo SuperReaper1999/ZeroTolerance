@@ -163,35 +163,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Girl_Jump_TopHalf1
+      name: Girl_Jump_Top_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 511
-        width: 177
-        height: 309
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1f402a419454d7a0800000000000000
-      internalID: -6353360191322304737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Girl_Jump_1
-      rect:
-        serializedVersion: 2
-        x: 1410
-        y: 843
-        width: 89
-        height: 123
+        x: 181
+        y: 547
+        width: 212
+        height: 224
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,35 +185,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_Bottom1
+      name: Girl_Jump_Top_5
       rect:
         serializedVersion: 2
-        x: 808
-        y: 144
-        width: 187
-        height: 352
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0dde18f9db0079550800000000000000
-      internalID: 6167399029132094928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Girl_Jump_3
-      rect:
-        serializedVersion: 2
-        x: 1157
-        y: 484
-        width: 368
-        height: 337
+        x: 994
+        y: 622
+        width: 190
+        height: 246
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,13 +207,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_4
+      name: Girl_Jump_Bottom_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 33
-        width: 225
-        height: 403
+        x: 807
+        y: 291
+        width: 181
+        height: 189
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,13 +229,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_5
+      name: Girl_Jump_Top_2
       rect:
         serializedVersion: 2
-        x: 194
-        y: 107
-        width: 191
-        height: 262
+        x: 374
+        y: 575
+        width: 226
+        height: 228
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,13 +251,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_6
+      name: Girl_Jump_Top_4
       rect:
         serializedVersion: 2
-        x: 364
-        y: 64
-        width: 245
-        height: 338
+        x: 794
+        y: 691
+        width: 205
+        height: 273
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,13 +273,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_7
+      name: Girl_Jump_Top_6
       rect:
         serializedVersion: 2
-        x: 609
-        y: 161
-        width: 184
-        height: 290
+        x: 1169
+        y: 497
+        width: 203
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,13 +295,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_8
+      name: Girl_Jump_Bottom_3
       rect:
         serializedVersion: 2
-        x: 948
-        y: 29
-        width: 259
-        height: 391
+        x: 581
+        y: 167
+        width: 213
+        height: 281
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,13 +317,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_9
+      name: Girl_Jump_Bottom_1
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 108
-        width: 169
-        height: 236
+        x: 193
+        y: 91
+        width: 184
+        height: 290
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,13 +339,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_10
+      name: Girl_Jump_Bottom_5
       rect:
         serializedVersion: 2
-        x: 1352
-        y: 23
-        width: 184
-        height: 411
+        x: 998
+        y: 134
+        width: 157
+        height: 278
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,13 +361,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_11
+      name: Girl_Jump_Top_7
       rect:
         serializedVersion: 2
-        x: 718
-        y: 119
-        width: 13
-        height: 13
+        x: 1357
+        y: 505
+        width: 174
+        height: 313
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,13 +383,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_12
+      name: Girl_Jump_Bottom_0
       rect:
         serializedVersion: 2
-        x: 726
-        y: 23
-        width: 107
-        height: 115
+        x: 3
+        y: 106
+        width: 189
+        height: 318
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,13 +405,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_13
+      name: Girl_Jump_Bottom_2
       rect:
         serializedVersion: 2
-        x: 710
-        y: 99
-        width: 17
-        height: 15
+        x: 368
+        y: 108
+        width: 231
+        height: 293
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,13 +427,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_14
+      name: Girl_Jump_Bottom_6
       rect:
         serializedVersion: 2
-        x: 576
-        y: 16
-        width: 85
-        height: 36
+        x: 1181
+        y: 111
+        width: 169
+        height: 186
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,13 +449,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_15
+      name: Girl_Jump_Bottom_7
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 51
-        width: 13
-        height: 15
+        x: 1353
+        y: 108
+        width: 182
+        height: 315
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,23 +471,45 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Jump_16
+      name: Girl_Jump_Top_0
       rect:
         serializedVersion: 2
-        x: 592
-        y: 15
-        width: 7
-        height: 11
+        x: 0
+        y: 512
+        width: 180
+        height: 307
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 041c0dbefa5058390800000000000000
-      internalID: -7816835325097885376
+      spriteID: a74acb8b8d6f2db41922e8dcf0bce6d3
+      internalID: 52610648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Jump_Top_3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 654
+        width: 231
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e14742461add6041b33648301b90496
+      internalID: -386133780
       vertices: []
       indices: 
       edges: []
@@ -548,25 +526,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":384.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Girl_Jump_1: 2623898173158717156
-      Girl_Jump_10: -7471891616352276917
-      Girl_Jump_11: 576894335314434533
-      Girl_Jump_12: 6381979040092482106
-      Girl_Jump_13: 5384267977863578696
-      Girl_Jump_14: -1421513719517159492
-      Girl_Jump_15: -7310542997768184231
-      Girl_Jump_16: -7816835325097885376
-      Girl_Jump_3: 134191963575279144
-      Girl_Jump_4: -5154971665737287203
-      Girl_Jump_5: 2121588901614253855
-      Girl_Jump_6: 13810222359832891
-      Girl_Jump_7: 1414126960946500536
-      Girl_Jump_8: 8042875019368610657
-      Girl_Jump_9: 5287415493488666417
-      Girl_Jump_Bottom1: 6167399029132094928
-      Girl_Jump_TopHalf1: -6353360191322304737
+      Girl_Jump_Bottom_0: 6381979040092482106
+      Girl_Jump_Bottom_1: 5287415493488666417
+      Girl_Jump_Bottom_2: 5384267977863578696
+      Girl_Jump_Bottom_3: 8042875019368610657
+      Girl_Jump_Bottom_4: -5154971665737287203
+      Girl_Jump_Bottom_5: -7471891616352276917
+      Girl_Jump_Bottom_6: -1421513719517159492
+      Girl_Jump_Bottom_7: -7310542997768184231
+      Girl_Jump_Top_0: 52610648
+      Girl_Jump_Top_1: 2623898173158717156
+      Girl_Jump_Top_2: 2121588901614253855
+      Girl_Jump_Top_3: -386133780
+      Girl_Jump_Top_4: 13810222359832891
+      Girl_Jump_Top_5: 134191963575279144
+      Girl_Jump_Top_6: 1414126960946500536
+      Girl_Jump_Top_7: 576894335314434533
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

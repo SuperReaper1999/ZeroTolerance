@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Style src="MenuFont.uss" />
+    <ui:Style src="MainMenu.uss" />
+    <ui:VisualElement name="MainMenuRoot" class="main-menu-overlay"><ui:VisualElement name="MainMenuPanel" class="main-menu-panel"><ui:Label text="ZERO TOLERANCE" class="main-menu-title" /><ui:Label text="MAIN MENU" class="main-menu-subtitle" /><ui:VisualElement class="main-menu-options"><ui:Button name="PlayButton" text="PLAY" class="main-menu-button" /><ui:Button name="SettingsButton" text="SETTINGS" class="main-menu-button" /><ui:Button name="ControlsButton" text="CONTROLS" class="main-menu-button" /><ui:Button name="ExitButton" text="EXIT" class="main-menu-button" /></ui:VisualElement></ui:VisualElement></ui:VisualElement>
+</ui:UXML>

@@ -1,14 +1,1 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
-    <ui:Style src="PlayerHud.uss" />
-    <ui:VisualElement name="PlayerHud" class="hud-root">
-        <ui:VisualElement class="coin-counter">
-            <ui:VisualElement name="CoinIcon" class="coin-icon" />
-            <ui:Label name="CoinCount" text="x 0" class="coin-count" />
-        </ui:VisualElement>
-        <ui:VisualElement name="HeartRow" class="heart-row">
-            <ui:VisualElement name="HeartOne" class="heart-icon" />
-            <ui:VisualElement name="HeartTwo" class="heart-icon" />
-            <ui:VisualElement name="HeartThree" class="heart-icon" />
-        </ui:VisualElement>
-    </ui:VisualElement>
-</ui:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"><ui:Style src="PlayerHud.uss" /><ui:VisualElement name="PlayerHud" class="hud-root"><ui:VisualElement class="coin-counter"><ui:VisualElement name="CoinIcon" class="coin-icon" /><ui:Label name="CoinCount" text="x 0" class="coin-count" /></ui:VisualElement><ui:VisualElement name="HeartRow" class="heart-row"><ui:VisualElement name="HeartOne" class="heart-icon" /><ui:VisualElement name="HeartTwo" class="heart-icon" /><ui:VisualElement name="HeartThree" class="heart-icon heart-icon-last" /></ui:VisualElement></ui:VisualElement></ui:UXML>
