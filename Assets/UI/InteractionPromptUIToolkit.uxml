@@ -1,0 +1,1 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements"><ui:Style src="MenuFont.uss"/><ui:Style src="QuestUI.uss"/><ui:VisualElement name="InteractionPromptRoot" class="interaction-prompt"><ui:VisualElement class="interaction-prompt-card"><ui:Label name="InteractionPromptLabel" text="[E] TALK" class="interaction-prompt-text"/></ui:VisualElement></ui:VisualElement></ui:UXML>

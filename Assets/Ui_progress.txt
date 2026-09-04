@@ -1,0 +1,68 @@
+ZERO TOLERANCE - UI PROGRESS
+Last updated: 3 September 2026
+
+AUTHORING APPROACH
+All current game UI is authored with Unity UI Toolkit. Scene and asset changes have been made through the live Unity Editor/Pipeline workflow; no uGUI UI has been added.
+
+UI FOUNDATION
+- Shared dark-blue / warm-gold visual language, Pirata One menu font, themed button hover state, and shared Panel Settings.
+- Existing correctly cropped UI sprites are used as-is: Big_Long_Button for main actions and the small Fabric/Moss buttons for compact controls.
+- UI documents are retained in scene assets and game scripts handle behaviour rather than constructing runtime layouts.
+
+FRONT END
+- Main Menu: Play, Settings, Controls, and scene navigation are styled and wired.
+- Level Select: themed level list, custom scroll arrows, invisible native scrollbar, preview panel, Back navigation, and level 1 loads SampleScene.
+- Pause Menu: themed buttons, hover styling, Resume, Restart Level, Main Menu, Settings, and Controls routes.
+
+GAMEPLAY HUD
+- Player HUD is present outside pause: coin counter with custom plate plus heart display.
+- Pause UI overlays gameplay rather than replacing the HUD.
+
+SETTINGS
+- UI Toolkit Settings screen is authored and themed.
+- Master/music/SFX controls, fullscreen and screen-shake toggles, resolution controls, and Back layout are present.
+- Current visuals no longer show Unity default grey button backgrounds.
+
+CONTROLS / REBINDING
+- UI Toolkit controls screen follows the key-binding reference style within the current art direction.
+- Uses Unity's Input System action/binding values rather than hard-coded key labels.
+- Existing binding overrides persist, show when the menu reopens, and Reset to Defaults removes overrides and refreshes visible values.
+- Both pause-menu and main-menu Controls buttons route to the screen. The 3D action asset remains the compatibility target.
+
+INVENTORY
+- UI Toolkit inventory layout is authored with themed item slots and detail panel.
+- Item selection / cursor-follow placement has been implemented against the intended inventory compatibility layer.
+- The target is to retain the 3D game's authoritative item and save model while replacing only its presentation layer. Port validation remains required in the open 3D project.
+
+NPC / QUEST UI TOOLKIT (AUTHORED IN ZERO TOLERANCE)
+- Dialogue card with speaker/line display, up to six authored choice slots, continue, and Escape cancellation.
+- Quest notification toast designed to listen to the existing 3D QuestManager events.
+- NPC interaction prompt with Show(text) / Hide() surface.
+- Quest journal with up to eight authored list rows, quest details, objective progress, tracking, and tracked-destination text.
+- QuestLog / Cancel input bridge uses the 3D action naming convention.
+- All of these are presentation adapters: they are designed to use the existing 3D QuestManager, DialogueRunner, quest definitions, flags, and save data rather than duplicate them.
+
+NPC / QUEST PORT STATUS AND LIMITS
+- The 3D project is not currently open with Pipeline, so the final adapter has not been applied or verified there.
+- The existing 3D QuestMenuController inherits an old uGUI tab base. It must be adapted in place, preserving its inspector/tab configuration, instead of blindly replacing it with the ZeroTolerance UI Toolkit controller.
+- The 3D PlayerInteractionController still needs its old OnGUI prompt calls changed to InteractionPromptUI.Show / Hide.
+- The journal shows tracked destination state as text; the existing 3D quest-map marker view has not yet been recreated in UI Toolkit.
+- Vendor/trading UI is still a separate 3D UI system and has not yet been migrated.
+
+REMAINING PRIORITIES
+1. Open S:\Repos\OpenWorldPrototype in Unity with Pipeline connected.
+2. Port the UI Toolkit NPC/quest adapters into the 3D project while keeping QuestManager, DialogueRunner, flags, items, and save data authoritative.
+3. Adapt the existing 3D QuestMenuController in place and verify its Input System bindings and tab lifecycle.
+4. Replace the 3D OnGUI interaction prompt with the Toolkit prompt.
+5. Migrate/replace remaining 3D UI systems: quest-map marker display, vendor/trading, hotbar/equipment, and any remaining legacy uGUI panels.
+6. Test scene changes, pause behaviour, input rebinding, persistent saves, dialogue branching, quest acceptance/turn-in, inventory, and mobile touch input in the 3D project.
+
+RELEVANT 3D SYSTEM CONTRACTS
+- Quest state/save authority: QuestManager
+- Dialogue flow: DialogueRunner and DialogueManager
+- NPC routing: NpcInteractor / NpcHub
+- Quest menu: QuestMenuController
+- Interaction prompt source: PlayerInteractionController
+- Input gating: UIInputGate
+
+This document records current progress and intended integration boundaries; it does not claim the 3D game has already been fully migrated.

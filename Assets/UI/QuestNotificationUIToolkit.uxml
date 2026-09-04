@@ -1,0 +1,1 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements"><ui:Style src="MenuFont.uss"/><ui:Style src="QuestUI.uss"/><ui:VisualElement name="QuestToastRoot" class="quest-toast-root"><ui:Label text="QUEST UPDATED" class="quest-toast-title"/><ui:Label name="QuestToastMessage" text="Quest notification" class="quest-toast-message"/></ui:VisualElement></ui:UXML>

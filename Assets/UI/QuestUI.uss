@@ -1,0 +1,36 @@
+.quest-overlay { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color: rgba(0, 10, 17, 0.86); align-items: center; justify-content: center; }
+.quest-frame { width: 1100px; height: 700px; padding-left: 36px; padding-right: 36px; padding-top: 28px; padding-bottom: 28px; background-color: rgb(4, 20, 31); border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-left-color: rgb(142, 86, 31); border-right-color: rgb(142, 86, 31); border-top-color: rgb(142, 86, 31); border-bottom-color: rgb(142, 86, 31); }
+.quest-title { align-self: center; color: rgb(255, 247, 232); font-size: 48px; -unity-font-style: bold; letter-spacing: 5px; }
+.quest-subtitle { align-self: center; margin-top: 2px; color: rgb(235, 170, 94); font-size: 20px; -unity-font-style: bold; letter-spacing: 3px; }
+.quest-divider { height: 2px; margin-top: 14px; margin-bottom: 14px; background-color: rgb(150, 89, 29); }
+.quest-body { flex-grow: 1; flex-direction: row; }
+.quest-list-pane { width: 45%; padding-right: 18px; }
+.quest-detail-pane { flex-grow: 1; padding-left: 22px; border-left-width: 2px; border-left-color: rgb(142, 86, 31); }
+.quest-section-title { color: rgb(245, 186, 105); font-size: 23px; -unity-font-style: bold; letter-spacing: 2px; }
+.quest-list { flex-grow: 1; margin-top: 10px; padding-top: 8px; padding-bottom: 8px; background-color: rgb(121, 83, 43); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(222, 170, 96); border-right-color: rgb(222, 170, 96); border-top-color: rgb(222, 170, 96); border-bottom-color: rgb(222, 170, 96); }
+Button.quest-row { height: 54px; margin-left: 10px; margin-right: 10px; margin-top: 4px; margin-bottom: 4px; color: rgb(48, 29, 14); font-size: 19px; -unity-font-style: bold; -unity-text-align: middle-left; padding-left: 22px; background-color: rgb(181, 137, 80); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(236, 184, 105); border-right-color: rgb(236, 184, 105); border-top-color: rgb(236, 184, 105); border-bottom-color: rgb(236, 184, 105); }
+Button.quest-row:hover, Button.quest-row.quest-selected { color: rgb(255, 239, 207); background-color: rgb(111, 63, 23); }
+.quest-detail-title { color: rgb(255, 244, 225); font-size: 31px; -unity-font-style: bold; letter-spacing: 2px; }
+.quest-detail-meta { margin-top: 8px; color: rgb(244, 184, 99); font-size: 17px; -unity-font-style: bold; }
+.quest-detail-description { margin-top: 14px; color: rgb(233, 218, 193); font-size: 19px; white-space: normal; }
+.quest-objectives-title { margin-top: 20px; color: rgb(245, 186, 105); font-size: 23px; -unity-font-style: bold; letter-spacing: 2px; }
+.quest-objectives { margin-top: 8px; color: rgb(242, 230, 211); font-size: 18px; white-space: normal; }
+.quest-map { height: 126px; margin-top: 18px; background-color: rgb(3, 15, 25); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(172, 105, 31); border-right-color: rgb(172, 105, 31); border-top-color: rgb(172, 105, 31); border-bottom-color: rgb(172, 105, 31); align-items: center; justify-content: center; }
+.quest-map-label { color: rgb(192, 151, 96); font-size: 19px; -unity-font-style: bold; letter-spacing: 2px; }
+.quest-footer { margin-top: 16px; flex-direction: row; justify-content: space-between; }
+Button.quest-big-button { width: 280px; height: 68px; color: rgb(255, 248, 234); font-size: 21px; -unity-font-style: bold; letter-spacing: 2px; background-image: url("project://database/Assets/Sprites/UI/UI buttons.png?fileID=-6188929701681851848&guid=c2b6350590f86ca478d89e4a4b188bd9&type=3#Big_Long_Button"); -unity-background-scale-mode: scale-to-fit; background-color: rgba(0,0,0,0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; }
+Button.quest-big-button:hover { color: rgb(255,216,166); -unity-background-image-tint-color: rgb(224,178,122); }
+.dialogue-overlay { position: absolute; left: 0; right: 0; top: 0; bottom: 0; justify-content: flex-end; padding-left: 110px; padding-right: 110px; padding-bottom: 52px; background-color: rgba(0, 0, 0, 0.28); }
+.dialogue-frame { min-height: 260px; padding-left: 28px; padding-right: 28px; padding-top: 18px; padding-bottom: 18px; background-color: rgb(9, 24, 31); border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-left-color: rgb(153, 94, 33); border-right-color: rgb(153, 94, 33); border-top-color: rgb(153, 94, 33); border-bottom-color: rgb(153, 94, 33); }
+.dialogue-speaker { color: rgb(255, 194, 105); font-size: 31px; -unity-font-style: bold; letter-spacing: 2px; }
+.dialogue-line { flex-grow: 1; margin-top: 10px; color: rgb(255, 247, 232); font-size: 23px; white-space: normal; }
+.dialogue-choices { margin-top: 12px; }
+Button.dialogue-choice, Button.dialogue-next { height: 52px; margin-top: 4px; color: rgb(255, 247, 232); font-size: 19px; -unity-font-style: bold; background-image: url("project://database/Assets/Sprites/UI/UI buttons.png?fileID=-6188929701681851848&guid=c2b6350590f86ca478d89e4a4b188bd9&type=3#Big_Long_Button"); -unity-background-scale-mode: scale-to-fit; background-color: rgba(0,0,0,0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; }
+Button.dialogue-choice:hover, Button.dialogue-next:hover { color: rgb(255,216,166); -unity-background-image-tint-color: rgb(224,178,122); }
+.dialogue-next { width: 210px; align-self: flex-end; }
+.quest-toast-root { position: absolute; top: 42px; right: 42px; width: 430px; padding-left: 18px; padding-right: 18px; padding-top: 14px; padding-bottom: 14px; background-color: rgb(12, 29, 39); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(185, 111, 34); border-right-color: rgb(185, 111, 34); border-top-color: rgb(185, 111, 34); border-bottom-color: rgb(185, 111, 34); }
+.quest-toast-title { color: rgb(247, 187, 97); font-size: 22px; -unity-font-style: bold; letter-spacing: 2px; }
+.quest-toast-message { margin-top: 4px; color: rgb(255, 245, 229); font-size: 18px; white-space: normal; }
+.interaction-prompt { position: absolute; left: 0; right: 0; bottom: 42px; align-items: center; justify-content: center; }
+.interaction-prompt-card { padding-left: 16px; padding-right: 16px; padding-top: 9px; padding-bottom: 9px; background-color: rgba(6, 20, 29, 0.92); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(178, 106, 30); border-right-color: rgb(178, 106, 30); border-top-color: rgb(178, 106, 30); border-bottom-color: rgb(178, 106, 30); }
+.interaction-prompt-text { color: rgb(255, 235, 205); font-size: 20px; -unity-font-style: bold; letter-spacing: 1px; }
